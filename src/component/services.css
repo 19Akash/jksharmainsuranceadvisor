@@ -1,0 +1,100 @@
+
+.tile{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 2%;
+    box-shadow: 1px 1px 3px 3px rgb(78, 79, 79);
+    text-align: center;
+    padding: 10px;
+    border:none;
+    height: 80px;
+    font-weight: bold;
+    width: 250px;
+}
+.title {
+    padding:2%;
+    font-size:18px;
+    font-weight: bold;
+}
+
+.tile:hover{
+    box-shadow: 1px 1px 3px 3px rgb(188, 190, 190);
+}
+.tile:active {
+    box-shadow: 1px 1px 3px 3px rgb(30, 31, 31);
+    opacity: 0.5;
+  }
+
+.gridcontainerstyle {
+    display:flex;
+    justify-content:center;
+    padding:2%
+}
+.dialogContentParent{
+    margin:1%;
+    width:98%;
+    display:flex;
+}
+.dialogContentPdf{
+    width:72%;
+}
+.dialogContentVideo{
+    width:28%;
+}
+.dialogButtonRapper{
+    padding:1%;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.dialogButton{
+    width:98%;
+    background-color:#42A5F5;
+    border: none;
+    padding:2%;
+    border-radius:5px;
+}
+.dialogButton:hover{
+   opacity: 0.5;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .title {
+        padding:2%;
+        font-size:10px;
+        font-weight: bold;
+    }
+    .gridcontainerstyle {
+        padding:2%
+    }
+    .tile{
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        margin: 2%;
+        box-shadow: 1px 1px 3px 3px rgb(78, 79, 79);
+        text-align: center;
+        padding: 10px;
+        border:none;
+        height: 50px;
+        font-weight: bold;
+        font-size: 7px;
+        width: 70px;
+    }
+    .dialogContentParent{
+        margin:1%;
+        width:98%;
+        display: block;
+    }
+    .dialogContentPdf{
+        margin-top: 10%;
+        width:42vh;
+        height: 40vh;
+        overflow: scroll;
+        padding: 10px;
+    }
+    .dialogContentVideo{
+        margin-top: 10%;
+        width:100%;
+        overflow: scroll;
+    }
+  }

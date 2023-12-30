@@ -3,8 +3,7 @@ import React from 'react';
 import "./profile.css"
 import profileImage from "../images/profileimage.jpg";
 const Profile = () =>{
-  return <div>
-       <div style={{width:"100%", display:"flex", justifyContent:"center", alignItems:"center"}}>
+  return <div style={{width:"100%", display:"flex", justifyContent:"center", alignItems:"center"}}>
         <div style={{width:"90%",paddingTop:"5%"}}>
           <div className='profileRoot'>
                <div className='textCover'>
@@ -27,7 +26,6 @@ const Profile = () =>{
           </div>
        </div>
        </div>
-  </div>
 }
 
 export default Profile;
