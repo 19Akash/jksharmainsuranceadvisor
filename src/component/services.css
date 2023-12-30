@@ -37,6 +37,8 @@
 }
 .dialogContentPdf{
     width:72%;
+    height: 50vh;
+    overflow: scroll;
 }
 .dialogContentVideo{
     width:28%;

@@ -3,13 +3,13 @@ export const insuranceList = [
     {
         id: 1,
         itemName: "Jeevan Utsav (871)",
-        details: "LIC has launched a fresh life insurance product. LIC Jeevan Utsav (Plan no. 871).In this post, let’s break down LIC Jeevan Utsav and see how it works.The good and the bad points, and the returns you can expect.  And finally, should you invest?",
+        details: "",
         video:"BvWHuMAag74"
     },
     {
         id: 2,
         itemName: "Dhan Sanchay (865)",
-        details: {dhansanchay},
+        details: dhansanchay,
         video:"l8igorrFV-w"
     },
     {
