@@ -61,14 +61,6 @@
  */
 
 /**
- * A React component to view a PDF document
- *
- * @see https://react-pdf-viewer.dev
- * @license https://react-pdf-viewer.dev/license
- * @copyright 2019-2023 Nguyen Huu Phuoc <me@phuoc.ng>
- */
-
-/**
 * @link https://github.com/gajus/sister for the canonical source repository
 * @license https://github.com/gajus/sister/blob/master/LICENSE BSD 3-Clause
 */
