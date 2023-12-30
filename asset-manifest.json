@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jksharmainsuranceadvisor/static/css/main.883f141b.css",
+    "main.js": "/jksharmainsuranceadvisor/static/js/main.3742be0a.js",
+    "static/js/787.a03e86c9.chunk.js": "/jksharmainsuranceadvisor/static/js/787.a03e86c9.chunk.js",
+    "static/media/profileimage.jpg": "/jksharmainsuranceadvisor/static/media/profileimage.21b719ef9b56f0da3516.jpg",
+    "static/media/OAICFA0.jpg": "/jksharmainsuranceadvisor/static/media/OAICFA0.6d7eed4ed8f93170e778.jpg",
+    "static/media/banner.jpg": "/jksharmainsuranceadvisor/static/media/banner.d4ddb37854a2a6c9889c.jpg",
+    "index.html": "/jksharmainsuranceadvisor/index.html",
+    "main.883f141b.css.map": "/jksharmainsuranceadvisor/static/css/main.883f141b.css.map",
+    "main.3742be0a.js.map": "/jksharmainsuranceadvisor/static/js/main.3742be0a.js.map",
+    "787.a03e86c9.chunk.js.map": "/jksharmainsuranceadvisor/static/js/787.a03e86c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.883f141b.css",
+    "static/js/main.3742be0a.js"
+  ]
+}
