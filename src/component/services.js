@@ -5,6 +5,7 @@ import { insuranceList } from './serviceData';
 import Dialog from "@mui/material/Dialog";
 import YouTube from 'react-youtube';
 import PdfView from './pdfView';
+import {BrowserView, MobileView} from 'react-device-detect';
 
 const Services = () =>{
     const [dialogOpen, setDialogOpen]=useState(false);
@@ -26,10 +27,17 @@ const Services = () =>{
                     <div className='dialogContentPdf'>
                         <PdfView pdf={selectedItem?.details}/>
                     </div>
+                    <BrowserView>
+                        <div className='dialogContentVideo'>
+                        <YouTube opts={{height: '400',width:'300'}}  videoId={selectedItem?.video}/>
+                        </div>
+                    </BrowserView>
+                    <MobileView>
                     <div className='dialogContentVideo'>
-                        <YouTube opts={((window.innerWidth <= 800 ) && ( window.innerHeight <= 600 )) ? {height: '350',width:'450'}: {height: '350',width:'300'}}  videoId={selectedItem?.video}/>
+                        <YouTube opts={{height: '350',width:'450'}}  videoId={selectedItem?.video}/>
                     </div>
-                </div>
+                    </MobileView>
+             </div>
                 <div className='dialogButtonRapper'>
                     <button className="dialogButton" onClick={()=>handleDialogClose()}>Close</button>
                 </div> 
