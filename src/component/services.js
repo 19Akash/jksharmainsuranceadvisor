@@ -34,7 +34,7 @@ const Services = () =>{
                     </BrowserView>
                     <MobileView>
                     <div className='dialogContentVideo'>
-                        <YouTube opts={{height: '350',width:'450'}}  videoId={selectedItem?.video}/>
+                        <YouTube opts={{height: '400',width:'300'}}  videoId={selectedItem?.video}/>
                     </div>
                     </MobileView>
              </div>
