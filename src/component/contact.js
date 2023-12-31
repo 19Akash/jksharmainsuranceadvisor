@@ -68,6 +68,11 @@ export const Contact = () => {
         kindly share your details, and our team will promptly reach out to you. Alternatively, 
         you can directly contact us using the information provided below. 
         We're here to assist you.</div>
+        <div className='title'>यदि आपके पास LIC बीमा से संबंधित कोई प्रश्न हो या सहायता की आवश्यकता हो, 
+        कृपया अपना विवरण साझा करें, और हमारी टीम शीघ्र ही आपसे संपर्क करेगी। वैकल्पिक रूप से, 
+        आप नीचे दी गई जानकारी का उपयोग करके सीधे हमसे संपर्क कर सकते हैं। 
+        हम आपकी सहायता के लिए यहाँ हैं।
+        </div>
         { isLoading 
         ? <Loader/> 
         :<form ref={form} onSubmit={(e)=>handleSubmit(e)}>
