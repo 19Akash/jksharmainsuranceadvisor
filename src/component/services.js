@@ -45,7 +45,7 @@ const Services = () =>{
         </div>
        </Dialog>
 
-        <div style={{border: "4px solid white", margin:"5%"}}>
+        <div style={{border: "4px solid white", margin:"5%", borderRadius:"10px",  boxShadow: "2px 2px 10px 10px rgb(233, 218, 218)"}}>
             <div className='title'>Insurance List</div>
             <div>
             <Grid container className='gridcontainerstyle'>

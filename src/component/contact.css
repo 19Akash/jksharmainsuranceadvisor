@@ -1,0 +1,18 @@
+.contactButton{
+    width:40%;
+    background-color:#42A5F5;
+    border: none;
+    padding:2%;
+    border-radius:5px;
+}
+.contactButton:hover{
+    opacity: 0.5;
+ }
+ .title {
+    padding:2%;
+    font-size:14px;
+}
+
+ @media only screen and (max-device-width: 480px) {
+    
+  }

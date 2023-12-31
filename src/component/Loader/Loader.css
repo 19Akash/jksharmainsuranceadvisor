@@ -1,0 +1,45 @@
+.loading {
+    /* height: 50vh; */
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    /* z-index: 9999; */
+}
+
+.loading > div {
+    width: 10vmax;
+    height: 10vmax;
+    border-bottom: 5px solid #42A5F5;
+    border-radius: 50%;
+    animation: loadingRotate 800ms linear infinite;
+}
+
+@keyframes loadingRotate {
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
+
+
+.spinning {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.spinning > div {
+    width: 2vmax;
+    height: 2vmax;
+    border-bottom: 2px solid #42A5F5;
+    border-radius: 50%;
+    animation: loadingRotate 800ms linear infinite;
+}
+
+@keyframes loadingRotate {
+    to {
+        transform: rotateZ(-360deg);
+    }
+}

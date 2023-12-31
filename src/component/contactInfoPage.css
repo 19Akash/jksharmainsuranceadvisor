@@ -1,0 +1,45 @@
+
+.infovalue{
+    width:50%;
+    text-align:start;
+    margin-left:5%;
+}
+.infokey{
+    display:flex;
+    width:100%;
+}
+.infoitem{
+    font-weight:bold;
+}
+.infoitem2{
+    font-weight:bold;
+    margin-top: 2%;
+}
+.infokeyitem{
+    width:40%;
+    text-align:end;
+}
+@media only screen and (max-device-width: 480px) {
+    .infovalue{
+        width:50%;
+        text-align:start;
+        margin-left:5%;
+    }
+    .infokey{
+        display:flex;
+        width:100%;
+    }
+    .infoitem{
+        font-weight:bold;
+        font-size: 10px;
+    }
+    .infokeyitem{
+        width:30%;
+        text-align:end;
+    }
+    .infoitem2{
+        font-weight:bold;
+        margin-top: 8%;
+        font-size: 10px;
+    }
+}
