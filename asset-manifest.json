@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jksharmainsuranceadvisor/static/css/main.ab1add24.css",
-    "main.js": "/jksharmainsuranceadvisor/static/js/main.a13c988e.js",
+    "main.js": "/jksharmainsuranceadvisor/static/js/main.069c8df5.js",
     "static/js/787.a03e86c9.chunk.js": "/jksharmainsuranceadvisor/static/js/787.a03e86c9.chunk.js",
     "static/media/pdf.worker.min.js": "/jksharmainsuranceadvisor/static/media/pdf.worker.min.08fffadbfe6f5c6a8e4e.js",
     "static/media/dhansanchay.pdf": "/jksharmainsuranceadvisor/static/media/dhansanchay.05afe5cc39f3e3c44a18.pdf",
@@ -10,11 +10,11 @@
     "static/media/banner.jpg": "/jksharmainsuranceadvisor/static/media/banner.d4ddb37854a2a6c9889c.jpg",
     "index.html": "/jksharmainsuranceadvisor/index.html",
     "main.ab1add24.css.map": "/jksharmainsuranceadvisor/static/css/main.ab1add24.css.map",
-    "main.a13c988e.js.map": "/jksharmainsuranceadvisor/static/js/main.a13c988e.js.map",
+    "main.069c8df5.js.map": "/jksharmainsuranceadvisor/static/js/main.069c8df5.js.map",
     "787.a03e86c9.chunk.js.map": "/jksharmainsuranceadvisor/static/js/787.a03e86c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab1add24.css",
-    "static/js/main.a13c988e.js"
+    "static/js/main.069c8df5.js"
   ]
 }
