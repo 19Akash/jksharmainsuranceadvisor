@@ -1,20 +1,31 @@
 {
   "files": {
     "main.css": "/jksharmainsuranceadvisor/static/css/main.ab1add24.css",
-    "main.js": "/jksharmainsuranceadvisor/static/js/main.069c8df5.js",
+    "main.js": "/jksharmainsuranceadvisor/static/js/main.4ec57c40.js",
     "static/js/787.a03e86c9.chunk.js": "/jksharmainsuranceadvisor/static/js/787.a03e86c9.chunk.js",
+    "static/media/jyoti.pdf": "/jksharmainsuranceadvisor/static/media/jyoti.12f4d01102ae1e81f58b.pdf",
     "static/media/pdf.worker.min.js": "/jksharmainsuranceadvisor/static/media/pdf.worker.min.08fffadbfe6f5c6a8e4e.js",
     "static/media/dhansanchay.pdf": "/jksharmainsuranceadvisor/static/media/dhansanchay.05afe5cc39f3e3c44a18.pdf",
+    "static/media/utsav.pdf": "/jksharmainsuranceadvisor/static/media/utsav.c6eed4b2feb2a116c59b.pdf",
+    "static/media/vriddhi.pdf": "/jksharmainsuranceadvisor/static/media/vriddhi.b3b526d634952869ecb3.pdf",
+    "static/media/jeevananand.pdf": "/jksharmainsuranceadvisor/static/media/jeevananand.ab284a85f5aa324269d6.pdf",
+    "static/media/stambh.pdf": "/jksharmainsuranceadvisor/static/media/stambh.2840855442e8e62d8c22.pdf",
+    "static/media/endow.pdf": "/jksharmainsuranceadvisor/static/media/endow.c1d648b83c99359fad3c.pdf",
+    "static/media/shila.pdf": "/jksharmainsuranceadvisor/static/media/shila.e3d21582403899f91cf2.pdf",
     "static/media/profileimage.jpg": "/jksharmainsuranceadvisor/static/media/profileimage.21b719ef9b56f0da3516.jpg",
+    "static/media/lakshya.pdf": "/jksharmainsuranceadvisor/static/media/lakshya.b2c37dde94e97468ca6f.pdf",
+    "static/media/bachat.pdf": "/jksharmainsuranceadvisor/static/media/bachat.555ac58f80c2c0e2ab4a.pdf",
+    "static/media/jeevanlabh.pdf": "/jksharmainsuranceadvisor/static/media/jeevanlabh.50b49031a26ca7358917.pdf",
+    "static/media/sp.pdf": "/jksharmainsuranceadvisor/static/media/sp.52ee99d1868d48fec2e1.pdf",
     "static/media/OAICFA0.jpg": "/jksharmainsuranceadvisor/static/media/OAICFA0.6d7eed4ed8f93170e778.jpg",
     "static/media/banner.jpg": "/jksharmainsuranceadvisor/static/media/banner.d4ddb37854a2a6c9889c.jpg",
     "index.html": "/jksharmainsuranceadvisor/index.html",
     "main.ab1add24.css.map": "/jksharmainsuranceadvisor/static/css/main.ab1add24.css.map",
-    "main.069c8df5.js.map": "/jksharmainsuranceadvisor/static/js/main.069c8df5.js.map",
+    "main.4ec57c40.js.map": "/jksharmainsuranceadvisor/static/js/main.4ec57c40.js.map",
     "787.a03e86c9.chunk.js.map": "/jksharmainsuranceadvisor/static/js/787.a03e86c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab1add24.css",
-    "static/js/main.069c8df5.js"
+    "static/js/main.4ec57c40.js"
   ]
 }
