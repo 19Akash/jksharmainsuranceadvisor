@@ -9,14 +9,13 @@ function PdfView({pdf}) {
   function onDocumentLoadSuccess({ numPages }){
     setNumPages(numPages);
   }
-  console.log("window", window.innerWidth)
   return (
     <div style={{padding:"2%"}}>
       <BrowserView>
         <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
             {Array.apply(null, Array(numPages))
             .map((x, i)=>i+1)
-            .map(page => <Page pageNumber={page} width={500} scale={1.5}               
+            .map(page => <Page pageNumber={page} width={520} scale={1.5}               
                 renderAnnotationLayer={false} 
                 renderTextLayer={false}/>)}
         </Document>
@@ -25,7 +24,7 @@ function PdfView({pdf}) {
         <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
             {Array.apply(null, Array(numPages))
             .map((x, i)=>i+1)
-            .map(page => <Page pageNumber={page} width={170} scale={1.5}               
+            .map(page => <Page pageNumber={page} width={200} scale={1.5}               
                 renderAnnotationLayer={false} 
                 renderTextLayer={false}/>)}
         </Document>

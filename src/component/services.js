@@ -24,9 +24,6 @@ const Services = () =>{
             <div style={{ backgroundColor: "white", overflow:"hidden" }}>
                 <div style={{ fontSize: "18px", color:"#42A5F5",padding:"1%",paddingBottom:"0px"}}>{selectedItem?.itemName}</div>
                 <div className='dialogContentParent'>
-                    <div className='dialogContentPdf'>
-                        <PdfView pdf={selectedItem?.details}/>
-                    </div>
                     <BrowserView>
                         <div className='dialogContentVideo'>
                         <YouTube opts={{height: '400',width:'300'}}  videoId={selectedItem?.video}/>
@@ -34,9 +31,12 @@ const Services = () =>{
                     </BrowserView>
                     <MobileView>
                     <div className='dialogContentVideo'>
-                        <YouTube opts={{height: '400',width:'300'}}  videoId={selectedItem?.video}/>
+                        <YouTube opts={{height: '400',width:'335'}}  videoId={selectedItem?.video}/>
                     </div>
                     </MobileView>
+                    <div className='dialogContentPdf'>
+                        <PdfView pdf={selectedItem?.details}/>
+                    </div>
              </div>
                 <div className='dialogButtonRapper'>
                     <button className="dialogButton" onClick={()=>handleDialogClose()}>Close</button>
@@ -44,7 +44,6 @@ const Services = () =>{
             </div>
         </div>
        </Dialog>
-
 
         <div style={{border: "4px solid white", margin:"5%"}}>
             <div className='title'>Insurance List</div>
